@@ -1,3 +1,6 @@
+# このコードは現在動きません。
+
+
 import PySimpleGUI as sg
 import time
 import threading
