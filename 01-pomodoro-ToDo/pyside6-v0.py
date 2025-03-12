@@ -12,7 +12,7 @@ from PySide6.QtGui import QFont, QColor
 class WindowsClockStylePomodoro(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Windows Clock Style - Pomodoro & ToDo")
+        self.setWindowTitle("Pomodoro timer & ToDo List")
         self.setGeometry(100, 100, 400, 500)
         self.setStyle(QStyleFactory.create("Windows"))
 
@@ -194,5 +194,3 @@ if __name__ == "__main__":
     window = WindowsClockStylePomodoro()
     window.show()
     sys.exit(app.exec())
-
-    
